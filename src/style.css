@@ -1,0 +1,356 @@
+
+.Name {
+    color: black;
+    margin-top: 20%;
+    margin-bottom: 10%;
+
+}
+.button5 {
+    cursor: pointer;
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#cacaca;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.15s;
+    }
+.button5:hover {
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color: rgb(0, 0, 0);
+    border-color:#cacaca;
+    }
+.button5:active {
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color: rgb(0, 0, 0);
+    border-color:rgb(0, 0, 0);
+    }
+    @media all and (max-width:30em) {
+.button5 {
+    display:block;
+    margin:0.4em auto;
+}
+}
+.menu {
+    position: fixed;
+    font-size: 25px;
+    top: 3%;
+    right: 5%;
+    border-width: 2px;
+    border-color: rgb(136, 156, 175);
+    background-color: inherit;
+}
+.icon:hover { color:white}
+@media only screen and (min-width: 501px) {
+    .nameh1 {
+        margin-top: 20%;
+        font-size: 45px;
+        color: black;
+        font-family: fantasy;
+        font-weight: bold;
+    }
+  }
+@media only screen and (max-width: 500px) {
+    .nameh1 {
+        margin-top: 20%;
+        font-size: 35px;
+        color: black;
+        font-family: fantasy;
+        font-weight: bold;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .nameh1 {
+        margin-top: 50%;
+        font-size: 15px;
+        color: black;
+        font-family: fantasy;
+        font-weight: bold;
+    }
+  }
+.htmlstart {
+    color: CornflowerBlue;
+    font-family: cursive;
+
+}
+.bodystart {
+    color: CornflowerBlue;
+    font-family: "cursive";
+    margin-left: "13%";
+}
+.h1start {
+    color: CornflowerBlue;
+    margin-top: 20vh;
+    font-family: "cursive";
+    margin-left: 20%;
+}
+.h1end {
+    color: CornflowerBlue;
+    font-family: "cursive";
+    margin-left: 20%;
+}
+.buttonstart {
+    margin-top: 5%;
+    color: CornflowerBlue;
+    font-family: "cursive";
+    margin-left: 20%;
+}
+.bodyend {
+    margin-top: 20vh;
+    color: CornflowerBlue;
+    font-family: cursive;
+    margin-left: 13%;
+}
+.container {
+    margin-left: 10%
+}
+@media only screen and (max-width: 650px) {
+    .htmlstart {
+        color: CornflowerBlue;
+        font-family: cursive;
+        margin-left: 30px;
+    }
+    .bodystart {
+        color: CornflowerBlue;
+        font-family: cursive;
+        margin-left: 30px;
+    }
+    .h1start {
+        color: CornflowerBlue;
+        margin-top: 20vh;
+        font-family: cursive;
+        margin-left: 30px;
+    }
+    .h1end {
+        color: CornflowerBlue;
+        font-family: cursive;
+        margin-left: 30px;
+    }
+    .buttonstart {
+        margin-top: 5%;
+        color: CornflowerBlue;
+        font-family: cursive;
+        margin-left: 30px;
+    }
+    .bodyend {
+        margin-top: 20vh;
+        color: CornflowerBlue;
+        font-family: cursive;
+        margin-left: 30px;
+    }
+    .container {
+        margin-left: 10%
+    }
+}
+.typewriter {margin-top: 20%; margin-bottom: 10%;}
+.typewriter h1 {
+
+    margin-top: 20%;
+    font-size: 45px;
+    color: black;
+    font-family: fantasy;
+    font-weight: bold;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10 em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 4.5s steps(35, end),
+      blink-caret .90s step-end infinite;
+  }
+  .typewriter p {
+    margin-bottom: -15%;
+    font-size: 35px;
+    color: black;
+    font-family: fantasy;
+    font-weight: 940;
+    overflow: auto; /* Ensures the content is not revealed until the animation */
+    border-right: .10 em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 3.5s steps(45, end),
+      blink-caret .50s step-end infinite;
+  }
+  @media only screen and (max-width: 650px) {
+.typewriter p {
+    font-size: 15px;
+}
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+  @media only screen and (max-width: 900px) {
+    .typewriter {
+        margin-top: 50%;
+        margin-bottom: 10%;
+    }
+  .typewriter h1 {
+      font-size: 30px;
+  }/*
+  .typewriter p {
+    font-size: 25px;
+} */
+}
+@media only screen and (max-width: 550px) {
+    .typewriter {
+        margin-top: 50%;
+        margin-bottom: 10%;
+    }
+  .typewriter h1 {
+      font-size: 20px;
+  }
+}
+@media only screen and (max-width: 350px) {
+    .typewriter {
+        margin-top: 50%;
+        margin-bottom: 10%;
+    }
+  .typewriter h1 {
+      font-size: 15px;
+  }
+}
+.portfoliocontainer {
+    width: auto;
+    height:auto;
+    margin-left: 8%;
+}
+
+.Colportfolio {
+    border: 1px solid black;
+}
+.img1 {
+    width: 49%;
+    height: 400px;
+    margin: auto;
+    border: 1px solid blue;
+}
+@media only screen and (max-width: 1000px) {
+.img1 { height: 300px; }
+}
+@media only screen and (max-width: 700px) {
+    .img1 { height: 200px; }
+    }
+@media only screen and (max-width: 500px) {
+    .img1 { 
+        width: 90%;
+        height: 300px;
+        display: block; }
+    }
+    @media only screen and (max-width: 400px) {
+       .img1 {height: 250px;}
+    }
+img:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+@media only screen and (max-width: 850px) {
+.portfoliocontainer {
+    margin-left:75px;
+}
+img { height: 150px;}
+}
+@media only screen and (min-width: 1000px) {
+    img { height: 275px;}
+    }
+.aboutcontainer {
+    margin-top: 10%;
+    height: 60%;
+    margin-left: 10%;
+
+}
+.aboutleftside {
+    width:30%;
+    min-width: 250px;
+    display: inline-block;
+}
+.aboutrightside {
+    display:inline-block;
+    width:60%;
+    margin-left: 5%;
+}
+@media only screen and (max-width: 860px) {
+    .aboutrightside { 
+        margin-top: 5%;
+        display: block;
+        min-width: 250px;
+        margin-left: 0%;
+    }
+    }
+
+.skillsportfolio {
+    width: 80%;
+    margin: 10% auto;
+} 
+h2 { display: inline-block;}
+h4 { display: inline;}
+
+  
+  h2 {    /* For increasing performance 
+                         ID/Class should've been used. 
+                         For a small demo 
+                         it's okaish for now */
+    animation: showup 7s infinite;
+
+  }
+  
+  h4 {
+    width:0px;
+    animation: reveal 10s infinite;
+  }
+  
+  h4 {
+    margin-left:-355px;
+    animation: slidein 7s infinite;
+  }
+  
+  @keyframes showup {
+      0% {opacity:0;}
+      20% {opacity:1;}
+      80% {opacity:1;}
+      100% {opacity:0;}
+  }
+  
+  @keyframes slidein {
+      0% { margin-left:-3000px; }
+      20% { margin-left:-3000px; }
+      35% { margin-left:0px; }
+      100% { margin-left:0px; }
+  }
+  
+  @keyframes reveal {
+      0% {opacity:0;width:0px;}
+      20% {opacity:1;width:0px;}
+      30% {width:355px;}
+      80% {opacity:1;}
+      100% {opacity:0;width:355px;}
+  }
+  
+  @media only screen and (max-width: 500px) {
+h2 {
+    margin-top:20px;
+    display: block;
+}
+  }
+
+.ptag2 {
+    font-size: 25px;
+    font-family: fantasy;
+    font-weight: 940;
+    line-height: 30px;
+    text-shadow: .03em .03em 0 rgb(161, 161, 161);
+}
